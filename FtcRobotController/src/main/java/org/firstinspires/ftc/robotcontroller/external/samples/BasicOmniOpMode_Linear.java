@@ -117,9 +117,9 @@ public class BasicOmniOpMode_Linear extends LinearOpMode {
 
             // Combine the joystick requests for each axis-motion to determine each wheel's power.
             // Set up a variable for each drive wheel to save the power level for telemetry.
-            double frontLeftPower  = axial + lateral + yaw;
-            double frontRightPower = axial - lateral - yaw;
-            double backLeftPower   = axial - lateral + yaw;
+            double frontLeftPower  = axial + lateral + yaw; // axial - forward/back (left stick Y), "-" bcuz
+            double frontRightPower = axial - lateral - yaw; // lateral - the sideways movement (left, X)
+            double backLeftPower   = axial - lateral + yaw; // yaw - the rotation (right, x)
             double backRightPower  = axial + lateral - yaw;
 
             // Normalize the values so no wheel power exceeds 100%
