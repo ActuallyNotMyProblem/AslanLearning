@@ -1,5 +1,13 @@
 ## NOTICE
 
+usefull links: 
+https://vrobotsim.com/quickstart/
+https://www.reddit.com/r/FTC/comments/xfd8a2/how_to_train_programmers/
+https://ftc-docs.firstinspires.org/en/latest/programming_resources/shared/control_system_intro/The-FTC-Control-System.html
+https://github.com/alan412/LearnJavaForFTC/blob/master/LearnJavaForFTC.pdf 
+
+
+
 This repository contains the public FTC SDK for the DECODE (2025-2026) competition season.
 
 ## Welcome!
