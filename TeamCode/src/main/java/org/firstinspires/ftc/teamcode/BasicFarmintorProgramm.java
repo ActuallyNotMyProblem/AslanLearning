@@ -72,7 +72,7 @@ public class BasicFarmintorProgramm extends LinearOpMode {
             telemetry.addData("status: ", "time" + running.toString());
             telemetry.update();
 
-
+            //https://gm0.org/en/latest/docs/software/tutorials/mecanum-drive.html
 
 
 
